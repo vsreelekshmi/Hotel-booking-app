@@ -16,7 +16,6 @@ function App() {
     <div className="App">
       <Navbar />
       <BrowserRouter>
-      
          <Route path="/" exact component={Landingscreen}/>
          <Route path="/home" exact component={Homescreen}/>
          <Route path="/login" component={Loginscreen}/>
